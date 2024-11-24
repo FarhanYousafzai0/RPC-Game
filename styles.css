@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+text-align: center;
+font-family: monospace;
+position: relative;
+}
+
+h1{
+    background-color: #5a189a;
+    color: white;
+padding: 1rem;
+
+}
+/* Choices-section  */
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+
+}
+.choice:hover{
+   background-color: black;
+   scale: 0.90;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* Score Board */
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+ 
+    
+}
+
+
+
+.comp-score,.user-score,.draw{
+    font-size: 5rem;
+ 
+}
+
+/* Msg-container */
+.msg-container{
+ 
+
+
+margin-top: 2rem;
+
+}
+.msg{  
+     padding: 0.7rem;
+    display: inline;
+    background-color: #5a189a;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.anime-img{
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+}
